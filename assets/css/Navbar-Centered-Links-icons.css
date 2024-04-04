@@ -1,0 +1,216 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+  background: #FF3EA5;
+  margin: -96px;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+.navbar {
+  background-color: #FF7ED4!important;
+}
+
+a {
+  color: #ffffff!important;
+}
+
+.contacto-button {
+  background-color: #6420AA!important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 25px;
+}
+
+.link-nav {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.link-nav:hover {
+  animation: pulse 1s infinite;
+}
+
+.contacto-button:hover {
+  background-color: #FF3EA5!important;
+}
+
+@media (max-width: 575px) {
+  #col-quien-soy {
+    height: 671px;
+  }
+}
+
+@media (max-width: 575px) {
+  #fila-quien-soy {
+    height: 200vh!important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #fila-quien-soy {
+    height: 140vh!important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #fila-quien-soy {
+    height: 105vh!important;
+  }
+}
+
+.card-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bs-secondary-bg);
+  border-radius: 24px;
+}
+
+.titulo-card-service {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: #FF3EA5;
+  text-align: center;
+  text-shadow: -1px -1px 0px var(--bs-body-bg);
+}
+
+.parrafo-service {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  color: #6420AA;
+  font-weight: bold;
+  border-style: none;
+}
+
+.all-card {
+  border-style: none;
+  border-radius: 30px;
+  box-shadow: 5px 5px 0px 5px #6420AA, 10px 10px 9px var(--bs-emphasis-color);
+}
+
+@media (max-width: 575px) {
+  #servicios {
+    height: 432vh!important;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+  #servicios {
+    height: 384vh!important;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  #servicios {
+    height: 264vh!important;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+  #servicios {
+    height: 248vh!important;
+  }
+}
+
+.testimonios-nombres {
+  color: #6420AA!important;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+.testimonio-parrafo {
+  font-family: Montserrat, sans-serif;
+  font-style: italic;
+}
+
+@media (max-width: 575px) {
+  #titulo-testimonios {
+    font-size: 48px!important;
+  }
+}
+
+@media (max-width: 575px) {
+  #testimonios {
+    height: 256vh!important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #testimonios {
+    height: 224vh!important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #testimonios {
+    height: 184vh!important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #testimonios {
+    height: 128vh!important;
+  }
+}
+
+#boton-envio:hover {
+  background-color: #FF7ED4!important;
+}
+
+#message-2 {
+  resize: none;
+}
+
